@@ -1,6 +1,6 @@
 {
   "name": "signs-net",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Networking module for Signs.js",
   "main": "dist",
   "scripts": {

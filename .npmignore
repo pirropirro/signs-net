@@ -1,7 +1,9 @@
-node_modules
-scripts
-tsconfig.json
-tslint.json
-typings.json
 .git
 .idea
+.travis
+scripts
+node_modules
+tslint.json
+tsconfig.json
+tsconfig.json
+!dist
