@@ -42,7 +42,7 @@ export class HttpClient implements IHttpClient {
 
         let text = await response.text();
         let contentType = responseHeaders["content-type"] || "";
-        let payload = contentType.match("application/json") ? JSON.parse(text) : text;
+        let payload = contentType.match("application/json") && !!text ? JSON.parse(text) : text;
 
         if (response.status >= 400) throw new Exception(payload, response.status);
         else return new HttpResponse(payload, response.status, responseHeaders);;
