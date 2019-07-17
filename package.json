@@ -1,6 +1,6 @@
 {
   "name": "signs-net",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Networking module for Signs.js",
   "main": "dist",
   "scripts": {
@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/lodash": "4.14.123",
     "@types/node-fetch": "^2.1.5",
-    "signs-js": "0.1.0",
+    "signs-js": "0.1.4",
     "typescript": "^3.0.3"
   }
 }
