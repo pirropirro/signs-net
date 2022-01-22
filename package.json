@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pirropirro/signs-net#readme",
   "dependencies": {
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^3.1.1"
   },
   "devDependencies": {
     "@types/lodash": "4.14.123",
